@@ -1,0 +1,45 @@
+/* SELECTOR UNIVERSAL */
+* {
+	font-size: 18px;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-weight: 200;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* SELECTOR POR ETIQUETA -> ESTILOS GENERALES */
+/* body {
+	background-color: rgb(20, 20, 20);
+	color: white;
+} */
+
+/* p {
+	color: orange;
+} */
+
+/* SELECTOR POR CLASE */
+/* .parrafo {
+	color: red;
+} */
+
+/* SELECTOR POR ID */
+/* #titulo{
+    color: pink
+} */
+
+#especial {
+	color: blue;
+}
+
+.especial {
+	color: red;
+}
+
+h3 {
+	color: green;
+}
+
+
+
+
