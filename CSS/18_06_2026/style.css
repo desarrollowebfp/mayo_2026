@@ -1,0 +1,106 @@
+/* RESET */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ESTILOS GENERALES */
+body {
+	color: white;
+	background-color: rgb(16, 16, 16);
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+h1,
+h2,
+h3 {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+/* COMBINADOR DE HIJO
+#contacto > a {
+	border: 2px solid red;
+}
+
+COMBINADOR DE DESCENDIENTES
+header a {
+	color: orange;
+} */
+
+/* HEADER */
+header {
+	padding: 20px;
+}
+
+header h1 {
+	text-align: center;
+}
+
+header ul {
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+header a {
+	text-decoration: underline;
+	color: orange;
+}
+
+/* MAIN */
+main {
+	padding: 20px;
+}
+
+main #inicio {
+	background-color: beige;
+	color: black;
+	padding: 20px;
+}
+
+main #galeria {
+	background-color: cadetblue;
+	color: black;
+	padding: 20px;
+}
+
+main #contacto {
+	background-color: darkseagreen;
+	color: black;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+main > #contacto > a {
+	text-transform: uppercase;
+}
+
+main p {
+	text-align: justify;
+}
+
+main h2 {
+	text-align: center;
+}
+
+/* FOOTER */
+footer{
+    padding: 20px;
+    text-align: center;
+}
