@@ -1,0 +1,35 @@
+:root {
+	font-size: 16px;
+}
+
+body {
+	background-color: #03271f;
+	color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+h1,h2,h3{
+    font-family: "Libre Baskerville", serif;
+}
+
+section {
+	font-size: 20px;
+}
+
+p {
+	font-size: 1em;
+	color: #ff6f00;
+}
+
+#box {
+	width: 550px;
+	height: 50vh;
+	border: 2px solid #000000;
+	background-color: #000000;
+}
+
+#box-son {
+	height: 100%;
+	width: 50%;
+	background-color: #ff6f00;
+}
